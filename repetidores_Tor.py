@@ -12,7 +12,13 @@ for descriptor in downloader.get_consensus().run():
     
     infoCompleta = infoCompleta + "\n" + str(ipFind)
     cont = cont + 1
-
-
+print (r"+------------------------------+")
+print (r"|     IP DE LOS NODOS          |")
+print (r"+------------------------------+")
 print (infoCompleta)
+
+print (r"+-------------------------+")
+print (r"| CONTEO DE NODOS ACTIVOS |")
+print (r"+-------------------------+")
 print ("Existen: " + str(cont) + " nodos tor")
+print (r"+-------------------------+")
