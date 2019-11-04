@@ -3,7 +3,7 @@ import datetime
 import csv
 
 def test_whois():
-    dnsFile = open('dominios.txt', 'r')
+    dnsFile = open('whois_dominios.txt', 'r')
     for line in dnsFile:
         lookup = line.rstrip()
         w = whois.whois(lookup)
