@@ -38,7 +38,7 @@ def anysearch():
         ✔️ os: Para listar un sistema operativo determinado.\033[1;31m os:Linux \033[0m
         ✔️ after: Dispositivos agregados después de la fecha.
         ✔️ before: Lo mismo, pero antes de la fecha.\033[1;31m after/before:27/03/2015 \033[0m
-        ✔️ has_screenshot: Nos muestra dispositivos de los cuales hay una captura.\n
+        ✔️ has_screenshot:true Nos muestra dispositivos de los cuales hay una captura.\n
          [+] A continuación ingresa tu búsqueda: """)
         banner= "Información general de tu búsqueda"
         print("\n\n")
