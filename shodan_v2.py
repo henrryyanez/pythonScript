@@ -82,12 +82,15 @@ def anysearch():
 header = ("""
 \033[1;31m
 
- d888b  d8888b. db    db d8888b.  .d88b.       .d888b. 
-88' Y8b 88  `8D 88    88 88  `8D .8P  Y8.      VP  `8D 
-88      88oobY' 88    88 88oodD' 88    88         odD' 
-88  ooo 88`8b   88    88 88~~~   88    88       .88'   
-88. ~8~ 88 `88. 88b  d88 88      `8b  d8'      j88.    
- Y888P  88   YD ~Y8888P' 88       `Y88P' _____ 888888D      
+.d88888b  dP     dP   .88888.  888888ba   .d888888  888888ba  
+88.    "' 88     88  d8'   `8b 88    `8b d8'    88  88    `8b 
+`Y88888b. 88aaaaa88a 88     88 88     88 88aaaaa88a 88     88 
+      `8b 88     88  88     88 88     88 88     88  88     88 
+d8'   .8P 88     88  Y8.   .8P 88    .8P 88     88  88     88 
+ Y88888P  dP     dP   `8888P'  8888888P  88     88  dP     dP 
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+By HY
 
 \033[1;m
         \033[1;31m Shodan API \033[0m
