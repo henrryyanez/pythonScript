@@ -1,3 +1,3 @@
-# Script para listar de manera actializada los nodos tor
+# Scripts personalizados de pruebas
 
 Libreria : stem.descriptor
