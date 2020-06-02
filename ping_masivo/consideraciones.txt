@@ -2,3 +2,6 @@ Pemite ejecución del script por el usuario:
 
 >   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
+
+Fuente:
+https://gallery.technet.microsoft.com/scriptcenter/PowerShell-HostName-to-IP-d5d14b76
