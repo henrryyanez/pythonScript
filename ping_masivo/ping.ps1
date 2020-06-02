@@ -8,7 +8,7 @@
 ##https://gallery.technet.microsoft.com/scriptcenter/Ping-Machines-and-report-19d590ce           
 ################################################################### 
  
-$path = "C:\Users\se27978\Documents\results.xls" 
+$path = "C:\Ruta\results.xls" 
  
 $objExcel = new-object -comobject excel.application  
  
@@ -31,7 +31,7 @@ $objWorksheet.Cells.Item(1, 1) = "HostName"
 $objWorksheet.Cells.Item(1, 2) = "Result" 
 $objWorksheet.Cells.Item(1, 3) = "MachineIP" 
  
-$machines = gc C:\Users\se27978\Documents\machinelist.txt 
+$machines = gc C:\Ruta\machinelist.txt 
 $count = $machines.count 
  
 $row=2 
