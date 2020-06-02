@@ -1,0 +1,4 @@
+Pemite ejecución del script por el usuario:
+
+>   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
