@@ -5,3 +5,23 @@ Pemite ejecución del script por el usuario:
 
 Fuente:
 https://gallery.technet.microsoft.com/scriptcenter/PowerShell-HostName-to-IP-d5d14b76
+
+
+#####################################################################################
+
+
+PS /home/se27978a> Install-Module -Name AzureAD
+
+Untrusted repository
+You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the
+modules from 'PSGallery'?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
+
+PS /home/se27978a> Get-Module AzureAD
+
+PS /home/se27978a> Connect-AzureAD
+
+################################################
+> Get-AzureADUser -All $true -Filter 'accountEnabled eq false' | select *
+
+> Get-AzureADUser -All $true -Filter 'accountEnabled eq false' | select DisplayName,UserPrincipalName,Department,JobTitle,PhysicalDeliveryOfficeName | Export-CSV -Path ./adtest.csv
