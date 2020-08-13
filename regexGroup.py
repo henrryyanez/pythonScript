@@ -11,3 +11,8 @@ print(mo.group())
 phoneNumRegex = re.compile(r'(\d{2})-(\d{3})-(\d{3})')
 mo = phoneNumRegex.search(mensaje)
 print(mo.group(3))
+
+#Patrones o grupos opcionales:
+phoneNumRegex = re.compile(r'(\d{2}-)?(\d{3}-\d{3})')
+mo = phoneNumRegex.search(mensaje)
+print(mo.group())
